@@ -6,32 +6,32 @@ const tech = [
   { 
     name: "Arduino Uno", 
     desc: "Bộ vi điều khiển trung tâm xử lý logic và điều khiển toàn bộ hệ thống cảm biến, động cơ.",
-    imgSrc: "/boxuly.jpg"
+    imgSrc: "/boxuly.png"
   },
   { 
     name: "4 cảm biến LDR", 
     desc: "Đo cường độ ánh sáng theo 4 hướng khác nhau giúp xác định tọa độ mặt trời một cách chính xác.",
-    imgSrc: "/ldr.jpg"
+    imgSrc: "/ldr.png"
   },
   { 
     name: "2 động cơ Servo", 
     desc: "Xoay tấm pin theo 2 trục (ngang/dọc) tối ưu góc đón ánh sáng dựa trên dữ liệu vi điều khiển.",
-    imgSrc: "/servo.jpg"
+    imgSrc: "/servo.png"
   },
   { 
     name: "Tấm pin mini", 
     desc: "Chuyển hóa quang năng từ ánh sáng Mặt Trời thành điện năng cung cấp hiệu quả cho hệ thống.",
-    imgSrc: "/tamnangluong.jpg"
+    imgSrc: "/tamnangluong.png"
   },
   { 
     name: "2 Pin 18650", 
     desc: "Lưu trữ điện năng năng lượng mặt trời, có thể nạp xả nhiều lần đảm bảo duy trì nguồn điện ổn định.",
-    imgSrc: "/pin.jpg"
+    imgSrc: "/pin.png"
   },
   { 
     name: "Module TP5100", 
     desc: "Mạch quản lý sạc pin lithium chuyên dụng an toàn với hiệu suất chuyển đổi dòng điện cao.",
-    imgSrc: "/sac.jpg"
+    imgSrc: "/sac.png"
   },
 ]
 
