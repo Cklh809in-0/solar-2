@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, Play, Pause } from "lucide-react"
 import { useCarousel } from "@/hooks/useCarousel"
 import { productImages } from "@/data/content"
 
-const VIDEO_ID = "D3nshD9zafA"
+const VIDEO_SRC = "/videos/video%20thuyet%20minh%20moi.mp4"
 
 function DotNav({
   count,
@@ -135,9 +135,9 @@ export function GallerySection() {
             className="group relative mx-auto max-w-5xl overflow-hidden rounded-2xl border border-white/5 bg-black/50 p-2.5 backdrop-blur-md transition-all duration-300 ease-out hover:border-white/40"
           >
             <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-black">
-              <iframe
-                src={`https://www.youtube.com/embed/${VIDEO_ID}`}
-                allow="autoplay; encrypted-media"
+              <video
+                src={VIDEO_SRC}
+                controls
                 className="w-full h-full"
               />
               <div className="pointer-events-none absolute top-5 left-5 flex items-center gap-2 rounded-md bg-black/80 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-md border border-white/10 shadow-lg">
